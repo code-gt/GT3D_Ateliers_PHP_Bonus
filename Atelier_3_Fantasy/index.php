@@ -9,10 +9,8 @@
 
 <!-- 
 OBJECTIF :
-Créer un formulaire qui envoie les données vers result.php
+Créer un formulaire qui envoie les données vers result.php avec POST
 -->
-
-<form action="result.php" method="POST">
 
     <!-- NOM DE LA CRÉATURE -->
     <!-- 
@@ -84,10 +82,6 @@ Créer un formulaire qui envoie les données vers result.php
     Bouton pour envoyer le formulaire
     type="submit"
     -->
-    
-
-
-</form>
 
 </body>
 </html>
