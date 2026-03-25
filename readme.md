@@ -28,7 +28,7 @@ Chaque question doit proposer **4 choix** (boutons radio) :
 
 ---
 
-### 💡 Questions proposées
+### 💡 Exemples de questions proposées
 
 **1. Tu préfères travailler sur :**
 - Le design → frontend  
@@ -104,10 +104,10 @@ La carte doit contenir :
 
 Afficher une image différente selon le profil :
 
-- frontend → `frontend.jpg`
-- backend → `backend.jpg`
-- game → `game.jpg`
-- fullstack → `fullstack.jpg`
+- frontend → `img/frontend.png`
+- backend → `img/backend.jpg`
+- game → `img/game.jpg`
+- fullstack → `img/fullstack.png`
 
 ---
 
