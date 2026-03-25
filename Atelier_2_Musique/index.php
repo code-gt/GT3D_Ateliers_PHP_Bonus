@@ -9,10 +9,8 @@
 
 <!-- 
 OBJECTIF :
-Créer un formulaire qui envoie les données vers result.php
+Créer un formulaire qui envoie les données vers result.php avec POST
 -->
-
-<form action="result.php" method="POST">
 
     <!-- STYLE MUSICAL -->
     <!-- 
@@ -48,9 +46,6 @@ Créer un formulaire qui envoie les données vers result.php
     type="submit"
     -->
 
-    
-
-</form>
 
 </body>
 </html>
