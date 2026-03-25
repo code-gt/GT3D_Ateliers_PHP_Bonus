@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* TITRE */
+h2 {
+    color: #00d4ff;
+}
+
+/* LISTE */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255,255,255,0.1);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: translateX(5px);
+    background: rgba(255,255,255,0.2);
+}
+
+/* FORMULAIRE */
+button {
+    background: linear-gradient(90deg, #00d4ff, #ff00cc);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
